@@ -1,0 +1,29 @@
+#include<iostream>
+using namespace std;
+int main(argc,char**argv)
+{
+int x;
+cout<<"please enter grade"<<endl;
+cin>>x;
+  if(x>=0&&<=44)
+{ cout <<"Grade is F and Grade Point is 0"<<endl;}
+     else if(x>=45&&<=49)
+        { cout<<"Grade is E and Grade Point is 0.5"<<endl;}
+     else if(x>=50&&<=54)
+        { cout<<"Grade is D and Grade Point is 1.0"<<endl;}
+     else if(x>=55&&<=59)
+        { cout<<"Grade is D+ and Grade Point is 1.5"<<endl;}
+     else if(x>=60&&<=64)
+        { cout<<"Grade is C and Grade Point is 2.0"<<endl;}
+     else if(x>=65&&<=69)
+        { cout<<"Grade is C+ and Grade Point is 2.5"<<endl;}
+     else if(x>=70&&<=74)
+        { cout<<"Grade is B and Grade Point is 3.0"<<endl;}
+     else if(x>=75&&<=79)
+        { cout<<"Grade is B+ and Grade Point is 3.5"<<endl;}
+     else if(x>=80&&<=100)
+        { cout<<"Grade is A and Grade Point is 4.0"<<endl;}
+
+
+           return 0;
+   }

@@ -1,0 +1,40 @@
+//switch case //
+#include <iostream>
+using namespace std;
+int main(argc,char**arg)
+{ int grade;
+  cout<< "please enter grade"<<endl;
+    cin>>grade;
+  
+    switch(grade){
+      case 0 ... 44:
+        cout <<"Grade is F and Grade Point is 0"<<endl;
+          break;
+      case 45 ... 49:
+        cout <<"Grade is E and Grade Point is 0.5"<<endl;
+          break;
+      case 50 ... 54:
+        cout <<"Grade is D and Grade Point is 1.0"<<endl;
+          break;
+      case 55 ... 59:
+        cout <<"Grade is D+ and Grade Point is 1.5"<<endl;
+          break;
+      case 60 ... 64:
+        cout <<"Grade is C and Grade Point is 2.0"<<endl;
+          break;
+      case 65 ... 69:
+        cout <<"Grade is C+ and Grade Point is 2.5"<<endl;
+          break;
+      case 70 ... 74:
+        cout <<"Grade is B and Grade Point is 3.0"<<endl;
+          break;
+      case 75 ... 79:
+        cout <<"Grade is B+ and Grade Point is 3.5"<<endl;
+          break;
+      case 80 ... 100:
+        cout <<"Grade is A and Grade Point is 4.0"<<endl;
+          break;
+      default:
+       cout <<" Grade can not be found"<<endl;  
+          break;            }
+}
